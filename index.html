@@ -11,5 +11,21 @@ excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead
 <section>
   {% assign content = site.data.content %}
   <h1>{{content.title}}</h1>
-  <h4>{{content.body}}. Isn't your website beautiful?!</h4>
+  <h4>{{content.story}}</h4>
+  <br>
+  <p>Mempelai Pria : {{content.groom.name}}</p>
+  <p>Ayah Mempelai Pria : {{content.groom.father}}</p>
+  <p>Ibu Mempelai Pria : {{content.groom.mother}}</p>
+  <p>Mempelai Wanita : {{content.bride.name}}</p>
+  <p>Ayah Mempelai Wanita : {{content.bride.father}}</p>
+  <p>Ibu Mempelai Wanita : {{content.bride.mother}}</p>
+  <br>
+  {% for event in content.events %}
+  <p>Nama Event : {{ event.name }}</p>
+  <p>Tanggal : {{ event.date }}</p>
+  <p>Jam : {{ event.time }}</p>
+  <p>Lokasi : {{ event.address }}</p>
+  {% endfor %}
+  <br>
+  <br>
 </section>

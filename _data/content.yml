@@ -1,2 +1,27 @@
-title: "Your Awesome Website"
-body: "Your journey start here"
+title: "Undangan Pernikahan Tejo dan Surti"
+story: >
+  Kami adalah sesuatu
+  Yang akan selalu ada
+groom:
+  name: "Tejo Spd"
+  father: "Bapak Tajoko"
+  mother: "Ibu Tainem"
+bride: 
+  name: "Surti S.kom"
+  father: "Bapak Sasongko "
+  mother: "Ibu Sujoto"
+events:
+  - date: "29/11/2016"
+    time: "9:00"
+    address: "Jalan Salak Menari no. 5, Papua Barat"
+    latitude: ""
+    longitude: ""
+    name: "Akad Nikah"
+  - date: "20/12/2016"
+    time: "10:00"
+    address: "Gedung Melati"
+    name: "Resepsi"
+    latitude: ""
+    longitude: ""
+
+
