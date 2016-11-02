@@ -4,10 +4,12 @@ story: >
   Yang akan selalu ada
 groom:
   name: "Tejo Spd"
+  nickname: "Tejo"
   father: "Bapak Tajoko"
   mother: "Ibu Tainem"
 bride: 
   name: "Surti S.kom"
+  nickname: "Surti"
   father: "Bapak Sasongko "
   mother: "Ibu Sujoto"
 events:
